@@ -34,7 +34,7 @@ public class Main {
                     break;
                 case 2:
                     System.out.print("> ");
-                    String[] itemArray = input.next().split(",");
+                    String[] itemArray = input.next().toLowerCase().split(",");
                     for (String item : itemArray) {
                         if(!list.contains(item)) {
                             list.add(item);
